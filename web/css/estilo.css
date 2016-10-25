@@ -1,0 +1,110 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18/10/2016, 09:15:51
+    Author     : 0070149
+*/
+
+.switch-field {
+  font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+  padding: 40px;
+  overflow: hidden;
+}
+
+.switch-title {
+  margin-bottom: 6px;
+}
+
+.switch-field input {
+  display: none;
+}
+
+.switch-field label {
+  float: left;
+}
+
+.switch-field label {
+  display: inline-block;
+  width: 100px;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: none;
+  padding: 6px 14px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition:    all 0.1s ease-in-out;
+  -ms-transition:     all 0.1s ease-in-out;
+  -o-transition:      all 0.1s ease-in-out;
+  transition:         all 0.1s ease-in-out;
+}
+
+.switch-field label:hover {
+    cursor: pointer;
+}
+
+.switch-field input:checked + label {
+  background-color: #A9A9A9;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: white;
+}
+
+.switch-field label:first-of-type {
+  border-radius: 4px 0 0 4px;
+}
+
+.switch-field label:last-of-type {
+  border-radius: 0 4px 4px 0;
+}
+
+
+#navigation {
+    background-color: #eee;
+    
+
+}
+#navigation ul {
+    margin: 0;
+    padding: 0; 
+}
+#navigation li {
+    border-right: 1px solid #ddd;
+    display: block;
+    float: left;
+    margin: 0;
+}
+#navigation li:last-child {
+    border-right-width: 0;
+}
+#navigation a {
+    background-color: #eee;
+    color: #2A363B;
+    display: block;
+    padding: .75em 1.5em;
+    text-decoration: none;
+    transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+}
+#navigation a:hover {
+    background-color: #dddddd;
+}
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:after, 
+.clearfix:before {
+    
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
